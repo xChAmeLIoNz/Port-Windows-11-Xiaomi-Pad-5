@@ -1,11 +1,9 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Installare Windows su mi pad 5
+# Installare Windows su Xiaomi Mi Pad 5
 
 ## Installazione
-
-### Ripartizionare il dispositivo
 
 ### Prerequisiti
 
@@ -13,18 +11,23 @@
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-### Notes: 
+- ``` Bootloader sbloccato```
+
+- ```Cervello```
+
+### Note: 
 
 > [!NOTE]
->  Non sai da dove cominciare? Basta decomprimere gli [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools) scaricati, ad esempio ```"C:\platform-tools"``` quindi apri ```prompt dei comandi``` o `powershell` come amministratore e tipo:
+>  Non sai da dove cominciare? Estrai gli [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools) scaricati, poi apri il ```prompt dei comandi``` o `powershell` con privilegi di amministratore ed esegui i seguenti comandi, sostituendo `"percorso\a\platform-tools"` con il percorso effettivo alla cartella di `platform-tools`:
+
 ```cmd
 cd "percorso\a\platform-tools"
 ```
-> Sostituire  `"percorso\a\platform-tools"` con il percorso effettivo della cartella platform tools
+> Ricorda di usare questo terminale per la durata dell'operazione e di non chiuderlo.
 
 
 > [!WARNING]\
-> se elimini una qualsiasi partizione tramite diskpart ora o in futuro, Windows invierá un comando UFS che verrá interpretato erroneamente che cancellerá tutti i tuoi UFS!!!
+> Se elimini una qualsiasi partizione tramite diskpart ora o in futuro, Windows invierá un comando UFS che verrá interpretato erroneamente, il quale cancellerá tutti i tuoi UFS!!!
 > 
 > Tutti i tuoi dati verranno eliminati! Salvali ora se ne hai bisogno.
 > 
